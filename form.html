@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Форма</title>
+	</head>
+	<body>
+		<form method="post" action="mailto:kurkov.nikita@gmail.com?subject=Information">
+		<center>
+		<font size="5">
+		Введите номер вашего банковского счета: <input type="text" name="_bankNum"><br>
+		<br>
+		Введите номер пользователя: 	<input type="password" name="_userNum"><br>
+
+		Выберите товар:<br>
+		<input type="checkbox" name="_paper" value="yes"> Туалетная бумага <br>
+		<input type="checkbox" name="_grechka" value="yes"> Гречка <br>
+		<input type="checkbox" name="_mask" value="yes"> Маска <br>
+		<input type="checkbox" name="_antis" value="yes"> Антисептик <br>
+
+
+
+		<br>Комментарий к заказу:<br>
+		<textarea name="_comment" rows="6" cols="60" wrap="off"></textarea><br>
+
+		<table>
+			<tr>
+				<td><input type="submit" value="Отправить данные"></td>
+				<td><input type="reset" value="Очистить форму"></td>
+			</tr>
+		</table>
+
+		</font>
+		</center>
+		</form>
+	</body>
+</html>
